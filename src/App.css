@@ -33,12 +33,17 @@ a {
 }
 
 .container {
-  padding: 50px 54px 0;
+  display: grid;
+  grid-template-columns: 420px 420px 420px;
+  column-gap: 35px;
+  row-gap: 73px;
+  padding: 123px 54px 0;
 }
 
 .card-article {
   background-color: #112b3e;
-  margin: 73px 50px;
+  color: #fff;
+  /* margin: 73px 50px; */
 
   width: 420px;
   height: 450px;
@@ -47,4 +52,27 @@ a {
 .card-img-size {
   width: 420px;
   height: 299px;
+}
+
+.card-title {
+  margin: 10px 0;
+  max-height: 90px;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  text-align: center;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.card-text {
+  margin: 5px 0;
+  max-height: 30px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: center;
 }

@@ -6,7 +6,7 @@ const Card = () => {
       <img
         src="https://images.mktw.net/im-299272"
         className="card-img-top card-img-size"
-        alt="..."
+        alt="Picture"
       />
       <div className="card-body">
         <h5 className="card-title">

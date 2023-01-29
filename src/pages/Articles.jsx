@@ -4,18 +4,12 @@ import Card from '../components/Card';
 const Articles = () => {
   return (
     <div className="container">
-      <div className="col">
-        <Card />
-      </div>
-      <div className="col">
-        <Card />
-      </div>
-      <div className="col">
-        <Card />
-      </div>
-      <div className="col">
-        <Card />
-      </div>
+      <Card />
+      <Card />
+      <Card />
+      <Card />
+      <Card />
+      <Card />
     </div>
   );
 };
