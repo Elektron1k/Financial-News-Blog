@@ -1,0 +1,50 @@
+.main-container {
+  width: 1440px;
+  margin: 0 auto;
+  padding: 0;
+  background-color: #839695;
+}
+
+a {
+  text-decoration: none;
+}
+
+.navbar-header {
+  box-sizing: border-box;
+  font-size: 36px;
+  padding: 23px 0 0 27px;
+  line-height: 47px;
+  font-weight: 700;
+
+  position: fixed;
+  margin: 0 auto;
+  width: 1440px;
+  height: 83px;
+
+  background: #112b3e;
+}
+
+.navbar-text {
+  color: #fff !important;
+}
+
+.navbar-text > span {
+  font-size: 24px;
+}
+
+.container {
+  padding: 50px 54px 0;
+}
+
+.card-article {
+  background-color: #112b3e;
+  margin: 73px 50px;
+
+  width: 420px;
+  height: 450px;
+}
+
+.card-img-size {
+  width: 420px;
+  height: 299px;
+}
