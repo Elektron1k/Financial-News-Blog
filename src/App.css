@@ -37,7 +37,7 @@ a {
   grid-template-columns: 420px 420px 420px;
   column-gap: 35px;
   row-gap: 73px;
-  padding: 123px 54px 0;
+  padding: 123px 54px 40px;
 }
 
 .card-article {
@@ -81,7 +81,7 @@ a {
 }
 
 .container-article {
-  padding: 123px 121px 0;
+  padding: 123px 121px 96px;
 }
 
 .article-title {
@@ -104,4 +104,26 @@ a {
   font-weight: 500;
   font-size: 17px;
   line-height: 22px;
+}
+
+.article-expert-comment {
+  margin-top: 24px;
+  padding: 18px 19px 43px 35px;
+  background-color: #fff;
+}
+
+.article-expert-comment-title {
+  margin: 0;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26px;
+}
+
+.article-expert-comment-text {
+  margin: 28px 0 0;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 18.46px;
 }
