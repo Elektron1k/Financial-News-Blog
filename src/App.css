@@ -64,6 +64,10 @@ a {
   text-overflow: ellipsis;
 }
 
+.card-article:hover {
+  transform: scale(1.1);
+}
+
 .card-title > a {
   color: #fff;
 }
