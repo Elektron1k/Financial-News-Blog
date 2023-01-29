@@ -32,7 +32,7 @@ a {
   font-size: 24px;
 }
 
-.container {
+.container-grid {
   display: grid;
   grid-template-columns: 420px 420px 420px;
   column-gap: 35px;
@@ -43,7 +43,6 @@ a {
 .card-article {
   background-color: #112b3e;
   color: #fff;
-  /* margin: 73px 50px; */
 
   width: 420px;
   height: 450px;
@@ -65,6 +64,10 @@ a {
   text-overflow: ellipsis;
 }
 
+.card-title > a {
+  color: #fff;
+}
+
 .card-text {
   margin: 5px 0;
   max-height: 30px;
@@ -75,4 +78,30 @@ a {
   font-size: 14px;
   line-height: 18px;
   text-align: center;
+}
+
+.container-article {
+  padding: 123px 121px 0;
+}
+
+.article-title {
+  margin: 0;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 47px;
+  color: #fff;
+}
+
+.article-img {
+  margin: 10px 0 30px;
+  width: 1198px;
+}
+
+.article-description {
+  margin: 0;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 22px;
 }

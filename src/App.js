@@ -1,6 +1,7 @@
 import React from 'react';
 import { BrowserRouter, Link, Route, Routes } from 'react-router-dom';
 import './App.css';
+import Article from './pages/Article';
 import Articles from './pages/Articles';
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
           </nav>
           <Routes>
             <Route path="/articles" element={<Articles />} />
+            <Route path="/article/:id" element={<Article />} />
           </Routes>
         </div>
       </div>

@@ -3,7 +3,7 @@ import Card from '../components/Card';
 
 const Articles = () => {
   return (
-    <div className="container">
+    <div className="container-grid">
       <Card />
       <Card />
       <Card />
