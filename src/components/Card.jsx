@@ -1,22 +1,20 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-const Card = () => {
+const Card = (prop) => {
+  let { article } = prop;
   return (
     <div className="card-article">
       <img
-        src="https://images.mktw.net/im-299272"
+        src={article.imageUrl}
         className="card-img-top card-img-size"
         alt="Picture"
       />
       <div className="card-body">
         <h5 className="card-title">
-          <Link to="/article/111">
-            The New York Stock Exchange president says the stock market is not a
-            casino. Here&apos;s what academic research says.
-          </Link>
+          <Link to={`/article/${article.id}`}>{article.title}</Link>
         </h5>
-        <p className="card-text">https://images.mktw.net/im-299272</p>
+        <p className="card-text">{article.imageUrl}</p>
       </div>
     </div>
   );
